@@ -1,0 +1,19 @@
+---
+# We'll use defaults from the Google style, but with 4 columns indentation.
+BasedOnStyle: Google
+# Never allow single-line functions
+AllowShortFunctionsOnASingleLine: None
+# Put "else" on a new line
+BreakBeforeBraces: Custom
+BraceWrapping:
+    BeforeElse: true
+# Allow lines up to 90 characters
+ColumnLimit: 90
+# Indent each block by 4 spaces
+IndentWidth: 4
+TabWidth: 4
+# Require 1 space before a comment on the same line
+SpacesBeforeTrailingComments: 1
+# Put a space after a cast, e.g. `(void) arg;`
+SpaceAfterCStyleCast: true
+---

@@ -1,0 +1,4 @@
+implicit:
+    script: "/testers/cs24/project04/implicit/test"
+explicit:
+    script: "/testers/cs24/project04/explicit/test"
